@@ -1,0 +1,5 @@
+a=[1,2,3,45,32]
+maxi=a[0]
+for x >maxi:
+maxi=x
+print("maximum=",maxi)
