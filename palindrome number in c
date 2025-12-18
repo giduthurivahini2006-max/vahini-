@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+int n,rev=0,temp,d;
+scanf("%d",&n);
+temp=0n;
+while(temp){
+d=temp%10;
+rev=rev*10+d;
+temp/=10;
+}
+if(rev==n)
+printf("palindrome");
+else
+printf("not palindrome");
+}
