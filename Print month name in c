@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+int n;
+scanf("%d",&n);
+char*months[]={"january","february","march","april","may","june","july","august","september","october","november","december"}
+printf("%s",month[n-1]);
+return 0;
+}
